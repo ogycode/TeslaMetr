@@ -11,22 +11,22 @@
 *Интерфейс связи с ПК:* RS232
 
 ## Принципиальная схема модуля
-[![Logo](https://raw.githubusercontent.com/ogycode/TeslaMetr/master/merch/sheme.png)]()
+[![Logo](https://raw.githubusercontent.com/ogycode/TeslaMetr/master/merch/cheme.PNG)]()
 
 Так, как это университетский проект то все предоставленные комплектующие имеют минимальную стоимость, а некоторые еще и "советского" происхождения. **Немного про датчик.** SS443 - самый дешевый датчик который можно только найти, так вот, это индикаторный датчик, т.е. реагирует на смену полюсов, про измерения в даташите нет и единого слова, а задача стояла следующая: разработать модуль для **ИЗМЕРЕНИЯ** М-поля. Исходя из этого возникли проблемы с зависимостью датчика от напряжения питания.
 
 ## График зависимости тока
-[![Logo](https://raw.githubusercontent.com/ogycode/TeslaMetr/master/merch/graph1.png)]()
+[![Logo](https://raw.githubusercontent.com/ogycode/TeslaMetr/master/merch/graph1.PNG)]()
 
 Для измерений мне предоставили соленоид с *К = 8000*. Исходя из этого удалось получить зависимость погрешности от М-поля
 
 ## График погрешности показаний от тока
-[![Logo](https://raw.githubusercontent.com/ogycode/TeslaMetr/master/merch/graph2.png)]()
+[![Logo](https://raw.githubusercontent.com/ogycode/TeslaMetr/master/merch/graph2.PNG)]()
 
 После некоторых манипуляций с коэфициентами и преобразований кода АЦП удалось добиться адекватного измерения.
 
 ## График измереной индукции и расчитаной индукции
-[![Logo](https://raw.githubusercontent.com/ogycode/TeslaMetr/master/merch/graph3.png)]()
+[![Logo](https://raw.githubusercontent.com/ogycode/TeslaMetr/master/merch/graph3.PNG)]()
 
 ## Режимы работы
   - Установка нуля
